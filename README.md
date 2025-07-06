@@ -49,7 +49,7 @@ The script will:
 
 - Display a summary report
 
-# Project Structure
+## Project Structure
 ```bash
 Hack404/
 ├── detect_behavior.py     # Main script
@@ -57,7 +57,7 @@ Hack404/
 ├── README.md              # Project description
 ```
 
-# Technical Overview
+## Technical Overview
 
 - Whisper: Provides high-accuracy transcription for natural and non-standard speech.
 
@@ -65,7 +65,7 @@ Hack404/
 
 - Natural Language Processing: Simple token analysis and frequency counting for echolalia detection.
 
-# Use Cases
+## Use Cases
 - Autism companion apps (e.g., AutiCalm)
 
 - Behavioral monitoring tools for parents or therapists
@@ -74,10 +74,10 @@ Hack404/
 
 - Accessible technology for neurodivergent individuals
 
-# License
+## License
 This project is licensed under the **MIT License**.
 
-Author
+## Author
 Created by Anish Paleja for Hack404
 GitHub: [https://github.com/anipaleja]
 
