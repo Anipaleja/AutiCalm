@@ -26,3 +26,59 @@ Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
+
+## Input Format
+
+Add your input audio as `audio.wav`. Mono or stereo `.wav` files under 30 seconds are recommended.
+
+## Usage
+
+Run the script:
+
+```bash
+python AutiCalm.py
+```
+
+The script will:
+
+- Transcribe the audio using Whisper
+
+- Identify repeated words (echolalia)
+
+- Detect yelling based on volume thresholds
+
+- Display a summary report
+
+# Project Structure
+```bash
+Hack404/
+├── detect_behavior.py     # Main script
+├── audio.wav              # Input audio file
+├── README.md              # Project description
+```
+
+# Technical Overview
+
+- Whisper: Provides high-accuracy transcription for natural and non-standard speech.
+
+- Librosa: Used to extract audio features such as RMS and decibel levels for volume analysis.
+
+- Natural Language Processing: Simple token analysis and frequency counting for echolalia detection.
+
+# Use Cases
+- Autism companion apps (e.g., AutiCalm)
+
+- Behavioral monitoring tools for parents or therapists
+
+- Classroom observation tools
+
+- Accessible technology for neurodivergent individuals
+
+# License
+This project is licensed under the **MIT License**.
+
+Author
+Created by Anish Paleja for Hack404
+GitHub: [https://github.com/anipaleja]
+
+
