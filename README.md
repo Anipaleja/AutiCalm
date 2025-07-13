@@ -2,7 +2,7 @@
 
 AutiCalm is a smart audio analysis tool designed to assist with autism support by detecting signs of distress such as echolalia (repetitive speech) and yelling. It uses machine learning and audio processing to provide real-time insights from raw `.wav` audio input.
 
-This project was developed for Hack404 to promote neurodiverse-friendly technology through compassionate, ML-powered solutions.
+> This project was developed for Hack404 to promote neurodiverse-friendly technology through compassionate, ML-powered solutions.
 
 ## Features
 
