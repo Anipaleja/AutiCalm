@@ -41,12 +41,9 @@ python AutiCalm.py
 
 The script will:
 
-- Transcribe the audio using Whisper
-
+- Transcribe the audio using `Whisper`
 - Identify repeated words (echolalia)
-
 - Detect yelling based on volume thresholds
-
 - Display a summary report
 
 ## Project Structure
@@ -59,19 +56,14 @@ Hack404/
 
 ## Technical Overview
 
-- Whisper: Provides high-accuracy transcription for natural and non-standard speech.
-
-- Librosa: Used to extract audio features such as RMS and decibel levels for volume analysis.
-
-- Natural Language Processing: Simple token analysis and frequency counting for echolalia detection.
+- `Whisper`: Provides high-accuracy transcription for natural and non-standard speech.
+- `Librosa`: Used to extract audio features such as RMS and decibel levels for volume analysis.
+- `Natural Language Processing`: Simple token analysis and frequency counting for echolalia detection.
 
 ## Use Cases
 - Autism companion apps (e.g., AutiCalm)
-
 - Behavioral monitoring tools for parents or therapists
-
 - Classroom observation tools
-
 - Accessible technology for neurodivergent individuals
 
 ## License
@@ -79,7 +71,7 @@ This project is licensed under the **MIT License**.
 
 ## Author
 Created by Anish Paleja for Hack404
-
+Email: `anipaleja@gmail.com`
 GitHub: https://github.com/anipaleja
 
 
