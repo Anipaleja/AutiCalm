@@ -6,7 +6,7 @@ AutiCalm is a smart audio analysis tool designed to assist with autism support b
 
 ## Features
 
-- Speech-to-Text: Uses OpenAI's Whisper to transcribe speech from `.wav` files.
+- Speech-to-Text: Uses OpenAI's Whisper pretrained model to transcribe speech from `.wav` files.
 - Echolalia Detection: Identifies repeated words or phrases that may indicate distress.
 - Yelling Detection: Analyzes volume level and flags when yelling is detected.
 - Summarized Reports: Outputs clear feedback on detected audio behavior.
@@ -15,7 +15,7 @@ AutiCalm is a smart audio analysis tool designed to assist with autism support b
 
 ### Requirements
 
-- Python 3.8+
+- `Python 3.8+`
 - Dependencies:
   - `openai-whisper`
   - `librosa`
