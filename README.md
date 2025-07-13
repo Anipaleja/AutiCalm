@@ -71,7 +71,9 @@ This project is licensed under the **MIT License**.
 
 ## Author
 Created by Anish Paleja for Hack404
+
 Email: `anipaleja@gmail.com`
+
 GitHub: https://github.com/anipaleja
 
 
